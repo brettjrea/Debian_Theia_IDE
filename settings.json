@@ -1,0 +1,14 @@
+{
+    "keyboard.dispatch": "keyboard",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.iconTheme": "none",
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 10,
+    "editor.outline": false,
+    "editor.glyphMargin": false,
+    "editor.folding": false,
+    "editor.lineNumbers": "off",
+    "editor.lineDecorationsWidth": 0,
+    "editor.lineNumbersMinChars": 0,
+    "terminal.integrated.fontSize": 10,
+}
