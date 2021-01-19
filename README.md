@@ -22,7 +22,7 @@ export NVM_DIR="$HOME/.nvm"
 
 
 ```
-nvm install Erbium
+nvm install 12.20.1
 ```
 
 ```
