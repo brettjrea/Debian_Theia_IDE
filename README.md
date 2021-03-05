@@ -26,6 +26,10 @@ nvm install 12.20.1
 ```
 
 ```
+nvm alias default 12.20.1
+```
+
+```
 npm install -g yarn
 ```
 
