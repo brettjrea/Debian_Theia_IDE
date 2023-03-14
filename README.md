@@ -5,7 +5,7 @@ sudo apt-get install --reinstall ca-certificates -y &&
 wget https://raw.githubusercontent.com/brettjrea/Scripts_Fix/master/fixscripts.sh &&
 wget https://raw.githubusercontent.com/brettjrea/Debian_Theia_IDE/master/install-theia.sh &&
 sudo bash fixscripts.sh &&
-sudo bash upgrade.sh && 
+sudo bash install-theia.sh && 
 sudo apt autoremove -y &&
 sudo apt clean -y
 set -o emacs
