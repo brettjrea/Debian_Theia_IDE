@@ -1,32 +1,6 @@
 # Debian_Theia_IDE
-Commands to run Theia IDE on Debian Linux.
-
 ```
-sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y
-```
-
-```
-sudo apt install curl git python make g++ wget -y
-```
-
-```
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
-```
-
-```
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" 
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-```
-*If you can't copy and paste the above command, close and reopen the terminal to start using NVM and continue.*
-
-
-```
-nvm install 12.20.1
-```
-
-```
-npm install -g yarn
+sudo apt-get install libsecret-1-dev
 ```
 
 ```
@@ -41,6 +15,10 @@ wget https://raw.githubusercontent.com/brettjrea/Debian_Theia_IDE/master/setting
 ```
 mkdir ~/theia
 cd ~/theia/
+```
+
+```
+export PUPPETEER_SKIP_DOWNLOAD=true
 ```
 
 ```
@@ -59,15 +37,6 @@ yarn theia build
 yarn start /my-workspace --hostname 0.0.0.0 --port 8080
 ```
 
-*When using multiple versions of node you can set the default necessary for this app with the following command.*
-
 ```
-nvm alias default 12.20.1
-```
-
-*Quickly start after a shutdown or reboot.*
-
-```
-cd ~/theia/
-yarn start /my-workspace --hostname 0.0.0.0 --port 8080
+yarn theia start --plugins=local-dir:/home/userland/plugins --skip-build --ignore-errors
 ```
