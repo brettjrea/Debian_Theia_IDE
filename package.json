@@ -30,7 +30,7 @@
   "theiaPlugins": {
     "vscode-builtin-configuration-editing": "https://open-vsx.org/api/vscode/configuration-editing/1.70.2/file/vscode.configuration-editing-1.70.2.vsix",
     "vscode-builtin-css": "https://open-vsx.org/api/vscode/css/1.70.2/file/vscode.css-1.70.2.vsix",
-    "vscode-builtin-css-language-features": "https://open-vsx.org/api/vscode/css-language-features/1.45.1/file/vscode.css-language-features-1.45.1.vsix",
+    "vscode-builtin-css-language-features": "https://open-vsx.org/api/vscode/css-language-features/1.70.2/file/vscode.css-language-features-1.70.2.vsix",
     "vscode-builtin-debug-auto-launch": "https://open-vsx.org/api/vscode/debug-auto-launch/1.70.2/file/vscode.debug-auto-launch-1.70.2.vsix",
     "vscode-builtin-grunt": "https://open-vsx.org/api/vscode/grunt/1.70.2/file/vscode.grunt-1.70.2.vsix",
     "vscode-builtin-gulp": "https://open-vsx.org/api/vscode/gulp/1.70.2/file/vscode.gulp-1.70.2.vsix",
