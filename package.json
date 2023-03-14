@@ -28,6 +28,7 @@
   },
   "theiaPluginsDir": "plugins",
   "theiaPlugins": {
+    "vscode-builtin-node-debug": "https://github.com/theia-ide/vscode-node-debug/releases/download/v1.35.3/node-debug-1.35.3.vsix",
     "vscode-builtin-configuration-editing": "https://open-vsx.org/api/vscode/configuration-editing/latest/file/vscode.configuration-editing-latest.vsix",
     "vscode-builtin-css": "https://open-vsx.org/api/vscode/css/latest/file/vscode.css-latest.vsix",
     "vscode-builtin-css-language-features": "https://open-vsx.org/api/vscode/css-language-features/latest/file/vscode.css-language-features-latest.vsix",
@@ -47,9 +48,8 @@
     "vscode-builtin-markdown-language-features": "https://open-vsx.org/api/vscode/markdown-language-features/latest/file/vscode.markdown-language-features-latest.vsix",
     "vscode-builtin-merge-conflict": "https://open-vsx.org/api/vscode/merge-conflict/latest/file/vscode.merge-conflict-latest.vsix",
     "vscode-builtin-npm": "https://open-vsx.org/api/vscode/npm/latest/file/vscode.npm-latest.vsix",
-    "vscode-builtin-node-debug": "https://github.com/theia-ide/vscode-node-debug/releases/download/v1.35.3/node-debug-1.35.3.vsix",
-    "vscode-builtin-node-debug2": "https://open-vsx.org/api/ms-vscode/node-debug2/1.43.0/file/ms-vscode.node-debug2-1.43.0.vsix",
-    "vscode-builtin-prettier": "https://open-vsx.org/api/esbenp/prettier-vscode/5.1.3/file/esbenp.prettier-vscode-9.10.4.vsix",
+    "vscode-builtin-node-debug2": "https://open-vsx.org/api/ms-vscode/node-debug2/latest/file/ms-vscode.node-debug2-latest.vsix",
+    "vscode-builtin-prettier": "https://open-vsx.org/api/esbenp/prettier-vscode/latest/file/esbenp.prettier-vscode-latest.vsix",
     "vscode-builtin-scss": "https://open-vsx.org/api/vscode/scss/latest/file/vscode.scss-latest.vsix",
     "vscode-builtin-shellscript": "https://open-vsx.org/api/vscode/shellscript/latest/file/vscode.shellscript-latest.vsix",
     "vscode-builtin-sql": "https://open-vsx.org/api/vscode/sql/latest/file/vscode.sql-latest.vsix",
@@ -58,8 +58,8 @@
     "vscode-builtin-typescript-language-features": "https://open-vsx.org/api/vscode/typescript-language-features/latest/file/vscode.typescript-language-features-latest.vsix",
     "vscode-builtin-xml": "https://open-vsx.org/api/vscode/xml/latest/file/vscode.xml-latest.vsix",
     "vscode-builtin-yaml": "https://open-vsx.org/api/vscode/yaml/latest/file/vscode.yaml-latest.vsix",
-    "vscode-editorconfig": "https://open-vsx.org/api/EditorConfig/EditorConfig/0.16.6/file/EditorConfig.EditorConfig-0.16.6.vsix",
-    "vscode-eslint": "https://open-vsx.org/api/dbaeumer/vscode-eslint/2.1.1/file/dbaeumer.vscode-eslint-2.1.1.vsix",
-    "vscode-references-view": "https://open-vsx.org/api/ms-vscode/references-view/0.0.89/file/ms-vscode.references-view-0.0.89.vsix"
+    "vscode-editorconfig": "https://open-vsx.org/api/EditorConfig/EditorConfig/latest/file/EditorConfig.EditorConfig-latest.vsix",
+    "vscode-eslint": "https://open-vsx.org/api/dbaeumer/vscode-eslint/latest/file/dbaeumer.vscode-eslint-latest.vsix",
+    "vscode-references-view": "https://open-vsx.org/api/ms-vscode/references-view/latest/file/ms-vscode.references-view-latest.vsix"
   }
 }
