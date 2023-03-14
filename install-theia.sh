@@ -13,12 +13,13 @@ mkdir ~/theia
 cd ~/theia/
 export PUPPETEER_SKIP_DOWNLOAD=true
 
-# Start Theia with plugins from local directory
-yarn theia start --plugins=local-dir:/home/userland/plugins --skip-build --ignore-errors
-
 # Download package.json and install dependencies
 wget https://raw.githubusercontent.com/brettjrea/Debian_Theia_IDE/master/package.json
 yarn
+
+# Start Theia with plugins from local directory
+yarn theia start --plugins=local-dir:/home/userland/plugins --skip-build --ignore-errors
+
 
 # Build Theia and start the IDE
 yarn theia build
