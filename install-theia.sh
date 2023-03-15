@@ -18,7 +18,7 @@ wget https://raw.githubusercontent.com/brettjrea/Debian_Theia_IDE/master/package
 yarn
 
 # Start Theia with plugins from local directory
-yarn theia start --plugins=local-dir:/home/userland/plugins --skip-build --ignore-errors
+yarn theia start --plugins=local-dir:~/theia/plugins --skip-build --ignore-errors
 
 
 # Build Theia and start the IDE
